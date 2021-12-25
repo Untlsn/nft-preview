@@ -3,15 +3,18 @@ lockfileVersion: 5.3
 specifiers:
   '@fontsource/fira-mono': ^4.5.0
   '@lukeed/uuid': ^2.0.0
-  '@sveltejs/adapter-auto': ^1.0.0-next.0
-  '@sveltejs/kit': ^1.0.0-next.1
+  '@sveltejs/adapter-auto': next
+  '@sveltejs/adapter-static': next
+  '@sveltejs/kit': next
   '@types/cookie': ^0.4.1
+  '@types/faker': ^5.5.9
   '@typescript-eslint/eslint-plugin': ^4.31.1
   '@typescript-eslint/parser': ^4.31.1
   '@windicss/plugin-interaction-variants': ^1.0.0
   cookie: ^0.4.1
   eslint: ^7.32.0
   eslint-plugin-svelte3: ^3.2.1
+  faker: ^5.5.3
   svelte: ^3.44.0
   svelte-check: ^2.2.6
   svelte-preprocess: ^4.9.4
@@ -26,14 +29,17 @@ dependencies:
   '@lukeed/uuid': 2.0.0
   '@windicss/plugin-interaction-variants': 1.0.0
   cookie: 0.4.1
+  faker: 5.5.3
   tailwindcss: 3.0.7
   vite-plugin-windicss: 1.6.1
   windicss: 3.4.0
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.4
+  '@sveltejs/adapter-static': 1.0.0-next.22
   '@sveltejs/kit': 1.0.0-next.202_svelte@3.44.3
   '@types/cookie': 0.4.1
+  '@types/faker': 5.5.9
   '@typescript-eslint/eslint-plugin': 4.33.0_3289a875d95a672b97ebf589745c66ef
   '@typescript-eslint/parser': 4.33.0_eslint@7.32.0+typescript@4.5.4
   eslint: 7.32.0
@@ -168,6 +174,10 @@ packages:
       esbuild: 0.13.15
     dev: true
 
+  /@sveltejs/adapter-static/1.0.0-next.22:
+    resolution: {integrity: sha512-Dc1V9Z72dA7caVwNxxzl9Jhcq4uN9N1udA2GKNTLMu3aWX3Cq+v6C2CddY9Aazr+F9h6J0vi9AienuH+ySRXzQ==}
+    dev: true
+
   /@sveltejs/adapter-vercel/1.0.0-next.32:
     resolution: {integrity: sha512-ZcltaS5bAobGD5P0z7xJIjPHSlGpF7padMIkqTzJxwMEb/acGgdO5yzDS8XUEaSNgj+prpD2oG8+gm33ds8x0A==}
     dependencies:
@@ -219,6 +229,10 @@ packages:
 
   /@types/cookie/0.4.1:
     resolution: {integrity: sha512-XW/Aa8APYr6jSVVA1y/DEIZX0/GMKLEVekNG727R8cs56ahETkRAy/3DR7+fJyh7oUgGwNQaRfXCun0+KbWY7Q==}
+    dev: true
+
+  /@types/faker/5.5.9:
+    resolution: {integrity: sha512-uCx6mP3UY5SIO14XlspxsGjgaemrxpssJI0Ol+GfhxtcKpv9pgRZYsS4eeKeHVLje6Qtc8lGszuBI461+gVZBA==}
     dev: true
 
   /@types/json-schema/7.0.9:
@@ -979,6 +993,10 @@ packages:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /faker/5.5.3:
+    resolution: {integrity: sha512-wLTv2a28wjUyWkbnX7u/ABZBkUkIF2fCd73V6P2oFqEGEktDfzWx4UxrSqtPRw0xPRAcjeAOIiJWqZm3pP4u3g==}
+    dev: false
 
   /fast-deep-equal/3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
